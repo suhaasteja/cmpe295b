@@ -1,0 +1,9 @@
+huggingface_hub
+datasets
+pandas
+matplotlib
+python-dotenv
+ollama
+streamlit
+langchain
+requests
