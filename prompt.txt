@@ -31,12 +31,12 @@ Your job is to infer the driving context and choose ONE immediate next action th
 ## Output format (JSON only)
 Return ONLY a single JSON object on one line:
 {
+  "scene": "<explain the scene in 3 sentences>",
   "action": "<one of the actions above>",
   "confidence": <float 0.0-1.0>,
   "recommended_speed_kmh": <integer>,   // best-effort from context; if unclear, keep current and set to 0
   "hazards": ["<short hazard label>", ...],   // empty if none
-  "traffic_light": "<one of: green, yellow, red, none, uncertain>",
-  "notes": "<one concise sentence justifying the action without step-by-step reasoning>"
+  "traffic_light": "<one of: green, yellow, red, none, uncertain>"
 }
 
 ## Constraints

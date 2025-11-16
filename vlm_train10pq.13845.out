@@ -1,0 +1,17 @@
+[info] prompt: You are an autonomous-driving policy assistant. You receive a single forward-facing image from a CARLA simulator. 
+Your ...
+[info] torch: 2.6.0+cu124
+[info] cuda_available: True
+[info] gpu: NVIDIA A100-PCIE-40GB
+[info] scanning train-00000-of-00597.parquet
+[ok] 1/10 -> 000000.png
+[ok] 2/10 -> 000005.png
+[ok] 3/10 -> 000010.png
+[ok] 4/10 -> 000015.png
+[ok] 5/10 -> 000020.png
+[ok] 6/10 -> 000025.png
+[ok] 7/10 -> 000030.png
+[ok] 8/10 -> 000035.png
+[ok] 9/10 -> 000040.png
+[ok] 10/10 -> 000045.png
+[done] wrote 10 rows to /fs/atipa/home/016197935/cmpe295b/vlm_train10_13845.parquet
